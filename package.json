@@ -1,0 +1,22 @@
+{
+  "name": "project_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/serve.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "Mateus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.20.0",
+    "express": "4.17.3",
+    "pg": "8.7.3",
+    "sequelize": "6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15",
+    "sequelize-cli": "6.4.1"
+  }
+}
