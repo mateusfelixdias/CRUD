@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "main": "src/serve.js",
+  "repository": "https://github.com/mateusfelixdias/CRUD.git",
+  "author": "mateusfelixdias <felixmateus618@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "dev": "tsnd --exit-child src/serve.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
