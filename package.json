@@ -1,18 +1,19 @@
 {
   "name": "crud",
   "version": "1.0.0",
-  "main": "src/serve.js",
+  "main": "src/server.js",
   "repository": "https://github.com/mateusfelixdias/CRUD.git",
   "author": "mateusfelixdias <felixmateus618@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "yarn tsc",
-    "dev": "tsnd --exit-child src/serve.ts",
+    "dev": "tsnd --exit-child src/server.ts",
     "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
