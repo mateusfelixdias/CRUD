@@ -1,5 +1,5 @@
-import { Response } from "express";
-import { User } from "../database/user/model";
+import { Response } from 'express';
+import { User } from '../database/user/model';
 
 interface User {
   body: {
@@ -7,7 +7,7 @@ interface User {
     email: string;
     password: string;
   };
-};
+}
 
 export const create = async ({ body }: User, response: Response) => {
   const { name, email, password } = body;
@@ -15,7 +15,7 @@ export const create = async ({ body }: User, response: Response) => {
   const user = await User.create({
     name,
     email,
-    password
+    password,
   });
 
   return response.status(201).json(user).end();
