@@ -22,7 +22,7 @@ Para você rodar o projeto em sua maquina local você necessita ter essas tecnol
 
 - [Moogoose](https://mongoosejs.com/) - Mongoose é uma biblioteca desenvolvida para fazer a conexão do ambiente javaScript(NodeJS) com o banco de dados moongoDB. Além disso, o mongoose nós permite criar esquemas, validar esquemas, gerenciar relacionanmento entre dados e ETC.
 
-- [CORS](https://www.npmjs.com/package/cors) - CORS é um mecanismo que bloquear front-ends que não têm permições para acessar nossa API.
+- [CORS](https://www.npmjs.com/package/cors) - CORS é um mecanismo que bloquea front-ends que não têm permições para acessar nossa API.
 
 - [Express](https://expressjs.com/pt-br/) - Express é um fremework web que é utilizado em conjunto ao NodeJs. O express facilita muito no gerenciamento das nossas rotas, gerenciamento das requisições HTTP e muito mais!
 
