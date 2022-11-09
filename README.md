@@ -1,10 +1,33 @@
-# CRUD: CREATE, READ, UPDATE, DELETE.
+# CRUD (CREATE, READ, UPDATE, DELETE);
 
-# sobre o projeto
-Nesse projeto você pode inseri, atualizar, delatar e ver todos dados existentes no sistema.
+## Começando.
 
-# npm i 
-instalar as dependências!
+Olá &#x1F603;, no projeto CRUD você pode criar um novo usuário, obter todos os usuários cadastrados, atualizar um tal usuário e deletar um tal usuário.
 
-# npm start
-inicia o projeto!
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento.
+
+### 📋 Pré-requisitos
+
+Para você rodar o projeto em sua maquina local você necessita ter essas tecnologias já instaladas:
+
+- NodeJs: você pode instalar ([clicando aqui](https://nodejs.org/en/download/)).
+
+- Banco de dados MongoDB: você pode instalar ([clicando aqui](https://www.mongodb.com/docs/manual/installation/)).
+
+## 🛠️ Tecnologias utilizadas.
+
+- [NodeJS](https://nodejs.org/en/about/) - É uma tecnologia open-source(código aberto) e multiplataforma que permite criar ferramentas ao lado do servidor(backend) com javaScript. 
+
+-[TypeScript](https://www.typescriptlang.org/) - É uma tecnologia desenvolvida pela microsoft, é um superSet do javaScript que permite utilizar tipagem estática facilitando a escrita do código.
+
+-[MongoDB](https://www.mongodb.com/) - MongoDB é um banco de dados baseado em documentos, o mongoDB é um banco não relacional que permite armazenar dados em um formato semelhante ao JSON.
+
+-[Moogoose](https://mongoosejs.com/) - Mongoose é uma biblioteca desenvolvida para fazer a conexão do ambiente javaScript(NodeJS) com o banco de dados moongoDB. Além disso, o mongoose nós permite criar esquemas, validar esquemas, gerenciar relacionanmento entre dados e ETC.
+
+-[Cors](https://www.npmjs.com/package/cors) - CORS é um mecanismo que bloquear front-ends que não têm permições para acessar nossa API.
+
+-[Express](https://expressjs.com/pt-br/) - Express é um fremework web que é utilizado em conjunto ao NodeJs. O express facilita muito no gerenciamento das nossas rotas, gerenciamento das requisições HTTP e muito mais!
+
+## ✒️ Autor
+
+- [Desenvolvedor](https://github.com/mateusfelixdias).
