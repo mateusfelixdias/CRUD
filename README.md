@@ -41,16 +41,16 @@ Pronto, seu projeto já está pronto para criar, ler, atualizar e deletar, vamos
 <img aling="center" src="./images/ConfigurePostman.png" alt="configure postman">
 <br><br>
 
-Os campos name, email e password vocẽ pode modificar e colocar o seu nome, email e senha. Além disso, você pode fazer vários teste!
+Os campos name, email e password vocẽ pode modificar e colocar o seu nome, email e senha. Além disso, você pode fazer vários testes!
 <br><br>
 
-Agora você pode clicar no butão SEND, é retornar esses dados:
+Agora você pode clicar no butão SEND, é para retornar esses campos: name, email, password, _id, createdAt, updatedAt.
 <br><br>
 
 <img aling="center" src="./images/createUser.png" alt="CreateUser">
 <br><br>
 
-Pronto, você criou seu primeiro useuário!
+Pronto, você criou seu primeiro usuário!
 
 ## 🛠️ Tecnologias utilizadas.
 
@@ -65,6 +65,11 @@ Pronto, você criou seu primeiro useuário!
 - [CORS](https://www.npmjs.com/package/cors) - CORS é um mecanismo que bloquea front-ends que não têm permições para acessar nossa API.
 
 - [Express](https://expressjs.com/pt-br/) - Express é um fremework web que é utilizado em conjunto ao NodeJs. O express facilita muito no gerenciamento das nossas rotas, gerenciamento das requisições HTTP e muito mais!
+
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs) - O bcryptjs é uma biblioteca para encriptação de dados. Estou utilizando essa biblioteca para encriptografa a senha do usuário.
+
+- [Yup](https://www.npmjs.com/package/yup) - O yup é um construtor de esquemas para validação de campos, por exemplo, um formulário. Estou utilizando ele para
+validar os dados na criação do usuário.
 
 ## ✒️ Autor
 
