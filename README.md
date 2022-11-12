@@ -72,7 +72,7 @@ OBS: para você atualizar um usuário basta somente você mudar o método de GET
 Perceba que logo depois de users você colocar o / e logo em seguida o _id, por exemplo, users/id. Além disso, as opções abaixo é os campos que desejamos atualizar!
 <br><br>
 
-Por fim, para você deletar um usuário basta fazer da forma que o método PUT. Entretanto, não necessita passar os campos, somente o _id do usuário que desejamos deletar.<br>
+Por fim, para você deletar um usuário basta fazer da mesma forma que o método PUT. Entretanto, não necessita passar os campos, somente o _id do usuário que desejamos deletar.<br>
 OBS: para você deletar um usuário basta somente você mudar o método PUT para DELETE. Além disso, passar o _id como no método PUT.
 
 <img aling="center" src="./assets/delete.png" alt="get">
