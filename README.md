@@ -16,7 +16,7 @@ Para você rodar o projeto em sua maquina local você necessita ter essas tecnol
 
 - Yarn: você pode instalar o yarn ([clicando aqui](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)).
 
-## Executando projeto em seu ambiente de desevolvimento
+## Executando o projeto em seu ambiente de desenvolvimento
 Primerio você precisa instalar as depências com o comando: 
 
 ```
@@ -27,6 +27,10 @@ Em seguida execute o comando para inicializar o projeto:
 ```
 yarn run dev
 ```
+
+Após executar o comando yarn run dev, abra seu terminal no seu editor de código, é para está assim:
+
+<img src="./images/executandoProjetoCrud.png">
 
 ## 🛠️ Tecnologias utilizadas.
 
