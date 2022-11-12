@@ -12,6 +12,22 @@ Para você rodar o projeto em sua maquina local você necessita ter essas tecnol
 
 - Banco de dados MongoDB: você pode instalar ([clicando aqui](https://www.mongodb.com/docs/manual/installation/)).
 
+- Postman: você pode instalar o postman ([clicando aqui](https://www.postman.com/downloads/)).
+
+- Yarn: você pode instalar o yarn ([clicando aqui](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)).
+
+## Executando projeto em seu ambiente de desevolvimento
+Primerio você precisa instalar as depências com o comando: 
+
+```
+yarn install
+```
+Em seguida execute o comando para inicializar o projeto:
+
+```
+yarn run dev
+```
+
 ## 🛠️ Tecnologias utilizadas.
 
 - [NodeJS](https://nodejs.org/en/about/) - É uma tecnologia open-source(código aberto) e multiplataforma que permite criar ferramentas ao lado do servidor(backend) com javaScript. 
