@@ -28,9 +28,20 @@ Em seguida execute o comando para inicializar o projeto:
 yarn run dev
 ```
 
+<br><br>
 Após executar o comando yarn run dev, abra seu terminal no seu editor de código, é para está assim:
+<br>
 
 <img aling="center" src="./images/executandoProjetoCrud.png" alt="executandoProjetoCrud">
+<br><br>
+
+Pronto, seu projeto já está pronto criar, ler, atualizar e deletar, vamos lá.
+
+Primeiro abra o seu postman, e o configure como está na imagem!
+<br>
+
+<img aling="center" src="./images/ConfigurePostman.png" alt="configure postman">
+<br><br>
 
 ## 🛠️ Tecnologias utilizadas.
 
