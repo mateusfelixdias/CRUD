@@ -30,7 +30,7 @@ yarn run dev
 
 Após executar o comando yarn run dev, abra seu terminal no seu editor de código, é para está assim:
 
-<img src="./images/executandoProjetoCrud.png">
+<img aling="center" src="./images/executandoProjetoCrud.png" alt="executandoProjetoCrud">
 
 ## 🛠️ Tecnologias utilizadas.
 
@@ -48,4 +48,4 @@ Após executar o comando yarn run dev, abra seu terminal no seu editor de códig
 
 ## ✒️ Autor
 
-- [Mateus](https://github.com/mateusfelixdias). 
+- [Mateus](https://github.com/mateusfelixdias).
