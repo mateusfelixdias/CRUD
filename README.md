@@ -53,7 +53,7 @@ Agora você pode clicar no butão SEND, é para retornar esses campos: name, ema
 Pronto, você criou seu primeiro usuário!
 <br><br>
 
-Agora, para você ver o seu(s) usuário(s) você pode fazer uma requisição GET(pegue), vamos lá!
+Agora, para você ver o seu(s) usuário(s) você pode fazer uma requisição GET(pegue), vamos lá!<br>
 OBS: para você pegar todo(s) o(s) usuário(s) cadastrados basta somente mudar o método de POST para GET!
 <br><br>
 
@@ -63,13 +63,14 @@ OBS: para você pegar todo(s) o(s) usuário(s) cadastrados basta somente mudar o
 Pronto, o(s) seu(s) usuário(s) cadstrado(s)!
 <br><br>
 
-Agora, para você atualizar um tal usuário você pode fazer um requisição PUT, vamos lá!
+Agora, para você atualizar um tal usuário você pode fazer um requisição PUT, vamos lá!<br>
 OBS: para você atualizar um usuário basta somente você mudar o método de GET para PUT. Além disso, você precisar passar o campo _id do usuário que deseja atualizar. Você pode pegar o campo _id com método GET, mostrado anteriomente.
 
 <img aling="center" src="./assets/put.png" alt="get">
 <br>
 
-Perceba que logo depois do users você colocar o / e logo em seguida o _id, por exemplo, users/id. Além disso, as opções abaixo é os campos que vamos atualizar!
+Perceba que logo depois de users você colocar o / e logo em seguida o _id, por exemplo, users/id. Além disso, as opções abaixo é os campos que vamos desejamos atualizar!
+<br><br>
 
 ## 🛠️ Tecnologias utilizadas.
 
