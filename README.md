@@ -6,7 +6,7 @@ Olá, no projeto CRUD você pode criar um novo usuário, obter todos os usuário
 
 ### 📋 Pré-requisitos
 
-Para você rodar o projeto em sua maquina local você necessita ter essas tecnologias já instaladas:
+Para você rodar o projeto em sua maquina local você necessita ter essas tecnologias já instaladas ou você pode instalar:
 
 - NodeJs: você pode instalar ([clicando aqui](https://nodejs.org/en/download/)).
 
@@ -41,7 +41,7 @@ Pronto, seu projeto já está pronto para criar, ler, atualizar e deletar, vamos
 <img aling="center" src="./assets/config-postman.png" alt="config-postman">
 <br><br>
 
-Os campos name, email e password vocẽ pode modificar e colocar o seu nome, email e senha. Além disso, você pode fazer vários testes!
+Os campos name, email e password você pode modificar e colocar o seu nome, email e senha. Além disso, você pode fazer vários testes!
 <br><br>
 
 Agora você pode clicar no butão SEND, é para retornar esses campos: name, email, password, _id, createdAt, updatedAt.
@@ -54,7 +54,7 @@ Pronto, você criou seu primeiro usuário!
 <br><br>
 
 Agora, para você ver o seu(s) usuário(s) você pode fazer uma requisição GET(pegue), vamos lá!<br>
-OBS: para você pegar todo(s) o(s) usuário(s) cadastrados basta somente mudar o método de POST para GET!
+OBS: para você pegar o(s) usuário(s) cadastrado(s) basta somente mudar o método de POST para GET!
 <br><br>
 
 <img aling="center" src="./assets/get.png" alt="get">
@@ -69,8 +69,14 @@ OBS: para você atualizar um usuário basta somente você mudar o método de GET
 <img aling="center" src="./assets/put.png" alt="get">
 <br>
 
-Perceba que logo depois de users você colocar o / e logo em seguida o _id, por exemplo, users/id. Além disso, as opções abaixo é os campos que vamos desejamos atualizar!
+Perceba que logo depois de users você colocar o / e logo em seguida o _id, por exemplo, users/id. Além disso, as opções abaixo é os campos que desejamos atualizar!
 <br><br>
+
+Por fim, para você deletar um usuário basta fazer da forma que o método PUT. Entretanto, não necessita passar os campos, somente o _id do usuário que desejamos deletar.<br>
+OBS: para você deletar um usuário basta somente você mudar o método PUT para DELETE. Além disso, passar o _id como no método PUT.
+
+<img aling="center" src="./assets/delete.png" alt="get">
+<br>
 
 ## 🛠️ Tecnologias utilizadas.
 
