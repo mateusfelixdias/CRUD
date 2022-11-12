@@ -30,18 +30,27 @@ yarn run dev
 
 <br><br>
 Após executar o comando yarn run dev, abra seu terminal no seu editor de código, é para está assim:
-<br>
+<br><br>
 
 <img aling="center" src="./images/executandoProjetoCrud.png" alt="executandoProjetoCrud">
 <br><br>
 
-Pronto, seu projeto já está pronto criar, ler, atualizar e deletar, vamos lá.
-
-Primeiro abra o seu postman, e o configure como está na imagem!
-<br>
+Pronto, seu projeto já está pronto para criar, ler, atualizar e deletar, vamos lá. Primeiro abra o seu postman, e o configure como está na imagem!
+<br><br>
 
 <img aling="center" src="./images/ConfigurePostman.png" alt="configure postman">
 <br><br>
+
+Os campos name, email e password vocẽ pode modificar e colocar o seu nome, email e senha. Além disso, você pode fazer vários teste!
+<br><br>
+
+Agora você pode clicar no butão SEND, é retornar esses dados:
+<br><br>
+
+<img aling="center" src="./images/createUser.png" alt="CreateUser">
+<br><br>
+
+Pronto, você criou seu primeiro useuário!
 
 ## 🛠️ Tecnologias utilizadas.
 
