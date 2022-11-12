@@ -2,7 +2,7 @@
 
 ## Começando.
 
-Olá, no projeto CRUD você pode criar um novo usuário, obter todos os usuários cadastrados, atualizar um tal usuário e deletar um tal usuário.
+Olá, no projeto CRUD você pode criar um novo usuário, obter todos os usuários cadastrados, atualizar um usuário e deletar um usuário.
 
 ### 📋 Pré-requisitos
 
@@ -54,6 +54,7 @@ Pronto, você criou seu primeiro usuário!
 <br><br>
 
 Agora, para você ver o seu(s) usuário(s) você pode fazer uma requisição GET(pegue), vamos lá!<br><br>
+
 OBS: para você pegar o(s) usuário(s) cadastrado(s) basta somente mudar o método de POST para GET!
 <br><br>
 
@@ -63,7 +64,8 @@ OBS: para você pegar o(s) usuário(s) cadastrado(s) basta somente mudar o méto
 Pronto, o(s) seu(s) usuário(s) cadstrado(s)!
 <br><br>
 
-Agora, para você atualizar um tal usuário você pode fazer um requisição PUT, vamos lá!<br><br>
+Agora, para você atualizar um usuário você pode fazer um requisição PUT, vamos lá!<br><br>
+
 OBS: para você atualizar um usuário basta somente você mudar o método de GET para PUT. Além disso, você precisa passar o campo _id do usuário que deseja atualizar. Você pode pegar o campo _id com método GET, mostrado anteriomente.
 
 <img aling="center" src="./assets/put.png" alt="get">
@@ -72,8 +74,11 @@ OBS: para você atualizar um usuário basta somente você mudar o método de GET
 Perceba que logo depois de users você colocar o / e logo em seguida o _id, por exemplo, users/id. Além disso, as opções abaixo é os campos que desejamos atualizar!
 <br><br>
 
-Por fim, para você deletar um usuário basta fazer da mesma forma que o método PUT. Entretanto, não necessita passar os campos, somente o _id do usuário que desejamos deletar.<br>
-OBS: para você deletar um usuário basta somente você mudar o método PUT para DELETE. Além disso, passar o _id como no método PUT.
+Por fim, para você deletar um usuário basta fazer da mesma forma que no método PUT. Entretanto, não necessita passar os campos, somente o _id do usuário que desejamos deletar.<br><br>
+
+OBS: para você deletar um usuário basta somente você mudar o método PUT para DELETE. Além disso, passar o _id como no método PUT.<br><br>
+
+Pronto, fizemos as quatro operações do CRUD!!
 
 <img aling="center" src="./assets/delete.png" alt="get">
 <br>
