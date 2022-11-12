@@ -78,9 +78,10 @@ Por fim, para você deletar um usuário basta fazer da mesma forma que no métod
 
 OBS: para você deletar um usuário basta somente você mudar o método PUT para DELETE. Além disso, passar o _id como no método PUT.<br><br>
 
-Pronto, fizemos as quatro operações do CRUD!!
-
 <img aling="center" src="./assets/delete.png" alt="get">
+<br>
+
+Pronto, fizemos as quatro operações do CRUD!! :)
 <br>
 
 ## 🛠️ Tecnologias utilizadas.
